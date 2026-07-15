@@ -1,0 +1,3 @@
+INFO:     Will watch for changes in these directories: ['B:\\AI_CRM_HCP_project']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9400] using StatReload

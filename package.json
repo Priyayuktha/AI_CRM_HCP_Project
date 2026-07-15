@@ -1,0 +1,17 @@
+{
+  "name": "ai-crm-project",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI-First CRM - HCP Interaction Module",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "backend\\.venv\\Scripts\\python -m uvicorn app.main:app --reload --app-dir backend",
+    "install:frontend": "npm --prefix frontend install",
+    "install:backend": "backend\\.venv\\Scripts\\python -m pip install -r backend\\requirements.txt"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0",
+    "python": ">=3.11"
+  }
+}
